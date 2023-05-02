@@ -12,20 +12,20 @@ function App() {
         <section className="container-fluid content_margin">
           <Link className="navbar-brand" to="/">
             <img
-              src={Joseph}
-              alt="My profile thumbnail"
               width="60"
               height="48"
+              src={Joseph}
+              alt="My profile thumbnail"
             />
           </Link>
           <button
-            className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
             aria-expanded="false"
+            data-bs-toggle="collapse"
+            className="navbar-toggler"
             aria-label="Toggle navigation"
+            aria-controls="navbarTogglerDemo02"
+            data-bs-target="#navbarTogglerDemo02"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -62,8 +62,8 @@ function App() {
             reside in Lagos, Nigeria.
           </p>
           <ExternalLink
-            href="https://drive.google.com/file/d/1hAsk_sxe0euSxJfx4xPnzp34HM6OV9O7/view?usp=share_link"
             className="btn button_color color_text"
+            href="https://drive.google.com/file/d/1hAsk_sxe0euSxJfx4xPnzp34HM6OV9O7/view?usp=share_link"
           >
             Check me out
           </ExternalLink>
