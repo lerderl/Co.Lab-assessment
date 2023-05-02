@@ -23,6 +23,9 @@ function App() {
               <li class="nav-item">
                 <Link class="nav-link color_text" to='/'>Projects</Link>
               </li>
+              <li class="nav-item">
+                <Link class="nav-link color_text" to='/'>Hobby</Link>
+              </li>
             </ul>
           </section>
         </section>
