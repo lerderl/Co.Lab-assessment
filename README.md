@@ -6,3 +6,4 @@ This project simply offers basic information about me, my projects and hobby
 
 - React router dom
 - Bootstrap
+- React external link

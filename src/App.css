@@ -13,3 +13,12 @@
 .nav-link:hover {
   color: #ff6dcd;
 }
+
+.button_color {
+  background-color: #ff6dcd;
+}
+
+.button_color:hover {
+  background-color: #5a60ea;
+  color: white;
+}
