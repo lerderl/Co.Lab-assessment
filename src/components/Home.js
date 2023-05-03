@@ -1,14 +1,16 @@
 import About from "./About";
+import Hobby from "./Hobby";
 import Navbar from "./Navbar";
 import Project from "./Project";
 
 const Home = () => {
   return (
-    <section>
+    <>
       <Navbar />
       <About />
       <Project />
-    </section>
+      <Hobby />
+    </>
   );
 };
 
