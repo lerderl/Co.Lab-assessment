@@ -32,13 +32,13 @@ const Hobby = () => {
           </tr>
         </thead>
         <tbody>
-          {questions.map((item, id) => (
+          {/* {questions.map((item, id) => (
             <tr key={id}>
               <td>{item.question}</td>
               <td>{item.correct_answer}</td>
               <td>{item.difficulty}</td>
             </tr>
-          ))}
+          ))} */}
         </tbody>
       </table>
       <p>
