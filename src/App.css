@@ -39,3 +39,14 @@
 .section_padding {
   padding: 2em;
 }
+
+.left_margin {
+  margin-left: 5px;
+}
+
+@media screen  and (max-width: 730px) and (min-width: 566px) {
+  .left_margin {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+}

@@ -36,8 +36,7 @@ const Project = () => {
               Go to live site
             </ExternalLink>
             <ExternalLink
-              style={{ marginLeft: "5px" }}
-              className="btn button_color color_text"
+              className="btn button_color color_text left_margin"
               href="https://github.com/lerderl/metabnb"
             >
               Go to github repo
