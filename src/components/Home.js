@@ -1,3 +1,5 @@
+import ScrollToTop from "react-scroll-to-top";
+
 import About from "./About";
 import Hobby from "./Hobby";
 import Navbar from "./Navbar";
@@ -10,6 +12,7 @@ const Home = () => {
       <About />
       <Project />
       <Hobby />
+      <ScrollToTop smooth />
     </>
   );
 };

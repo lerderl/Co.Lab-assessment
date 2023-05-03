@@ -3,6 +3,30 @@ import { Link } from "react-router-dom";
 import Joseph from "../images/joseph.jpg";
 
 const Navbar = () => {
+  const scrollToAbout = () => {
+    const about = document.getElementById("about");
+    if (about) {
+      // 👇 Will scroll smoothly to the top of the about section
+      about.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToProjects = () => {
+    const projects = document.getElementById("projects");
+    if (projects) {
+      // 👇 Will scroll smoothly to the top of the projects section
+      projects.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToHobby = () => {
+    const hobby = document.getElementById("hobby");
+    if (hobby) {
+      // 👇 Will scroll smoothly to the top of the hobby section
+      hobby.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar_background">
       <section className="container-fluid content_margin">
@@ -28,17 +52,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link color_text" to="#about">
+              <Link className="nav-link color_text" onClick={scrollToAbout}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link color_text" to="#projects">
+              <Link className="nav-link color_text" onClick={scrollToProjects}>
                 Projects
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link color_text" to="#hobby">
+              <Link className="nav-link color_text" onClick={scrollToHobby}>
                 Hobby
               </Link>
             </li>
