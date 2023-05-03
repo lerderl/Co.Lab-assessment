@@ -6,7 +6,8 @@ import Joseph from "./images/joseph.jpg";
 
 function App() {
   return (
-    <>
+    <section>
+    {/* <section className="container"> */}
       {/* The navbar */}
       <nav className="navbar sticky-top navbar-expand-lg navbar_background">
         <section className="container-fluid content_margin">
@@ -29,7 +30,10 @@ function App() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <section className="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <section
+            className="collapse navbar-collapse"
+            id="navbarTogglerDemo02"
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link color_text" to="#about">
@@ -37,7 +41,7 @@ function App() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link color_text" to="/">
+                <Link className="nav-link color_text" to="#projects">
                   Projects
                 </Link>
               </li>
@@ -53,7 +57,7 @@ function App() {
 
       {/* About me */}
       <section className="card text-center" id="about">
-        <article className="card-body">
+        <article className="card-body mt-3 mb-3">
           <h5 className="card-title">Hi!, I am Joseph Olukunle</h5>
           <p className="card-text">
             I am a software engineer with sufficient expertise in designing and
@@ -69,7 +73,89 @@ function App() {
           </ExternalLink>
         </article>
       </section>
-    </>
+
+      {/* My projects */}
+      <section className="row projects_background" id="projects">
+        <h1 className="text-center mt-3">My Projects</h1>
+        <section className="col-sm-6 mb-3">
+          <section className="card h-100">
+            <article className="card-body">
+              <h5 className="card-title">A Bank's website</h5>
+              <p className="card-text">
+                This is a website I developed for Nigerian Navy Microfinance
+                Bank Limited which also uses a sanity cms to display dynamic
+                content.
+              </p>
+              <ExternalLink
+                href="https://www.navymfb.com/"
+                className="btn button_color color_text"
+              >
+                Go to website
+              </ExternalLink>
+            </article>
+          </section>
+        </section>
+        <section className="col-sm-6 mb-3">
+          <section className="card h-100">
+            <article className="card-body">
+              <h5 className="card-title">Demo Metabnb site</h5>
+              <p className="card-text">
+                This was a project to simply recreate the landing page and
+                another of a metabnb design.
+              </p>
+              <ExternalLink
+                href="https://lerderl-metabnb.netlify.app/"
+                className="btn button_color color_text"
+              >
+                Go to live site
+              </ExternalLink>
+              <ExternalLink
+                href="https://github.com/lerderl/metabnb"
+                className="btn button_color color_text"
+                style={{ marginLeft: '5px' }}
+              >
+                Go to github repo
+              </ExternalLink>
+            </article>
+          </section>
+        </section>
+        <section className="col-sm-6 mb-3">
+          <section className="card h-100">
+            <article className="card-body">
+              <h5 className="card-title">Employee-poll</h5>
+              <p className="card-text">
+                An application to improve employee collaboration and
+                transparency in an organization.
+              </p>
+              <ExternalLink
+                href="https://github.com/lerderl/Employee-poll"
+                className="btn button_color color_text"
+              >
+                Go github repo
+              </ExternalLink>
+            </article>
+          </section>
+        </section>
+        <section className="col-sm-6 mb-3">
+          <section className="card h-100">
+            <article className="card-body">
+              <h5 className="card-title">MyReads</h5>
+              <p className="card-text">
+                This project's aim is to enable a user be able to move books
+                between the three shelves in the application. A user can also
+                search for a book.
+              </p>
+              <ExternalLink
+                href="https://github.com/lerderl/MyReads"
+                className="btn button_color color_text"
+              >
+                Go to github repo
+              </ExternalLink>
+            </article>
+          </section>
+        </section>
+      </section>
+    </section>
   );
 }
 
