@@ -15,7 +15,7 @@ const Hobby = () => {
     getData();
   }, []);
 
-  console.log(questions);
+  if(!questions) return <div>loading...</div>
 
   return (
     <article className="mt-3" id="hobby">
@@ -25,6 +25,7 @@ const Hobby = () => {
         my leisure time because it's my favorite pastime. So find below some
         trivia questions that intrigued me.
       </p>
+      {console.log("Questions: ", questions)}
       <table className="table">
         <thead>
           <tr>
@@ -34,13 +35,13 @@ const Hobby = () => {
           </tr>
         </thead>
         <tbody>
-          {/* {questions.map((item, id) => (
+          {questions.map((item, id) => (
             <tr key={id}>
               <td>{item.question}</td>
               <td>{item.correct_answer}</td>
               <td>{item.difficulty}</td>
             </tr>
-          ))} */}
+          ))}
         </tbody>
       </table>
       <p>
