@@ -8,3 +8,4 @@ This project simply offers basic information about me, my projects and hobby
 - Bootstrap
 - React external link
 - Axios
+- React scroll to top
