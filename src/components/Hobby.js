@@ -15,6 +15,8 @@ const Hobby = () => {
     getData();
   }, []);
 
+  console.log(questions);
+
   return (
     <article className="mt-3" id="hobby">
       <h3 className="text-center title_color">My Favorite Hobby</h3>
