@@ -28,10 +28,14 @@
   background-image: linear-gradient(rgba(119,117,255,.2),rgba(128,170,230,.18));
 }
 
-.title_color {
-  color: rgb(47, 255, 248);
-}
-
 .project_color {
   color: orange;
+}
+
+.title_bold {
+  font-weight: bold;
+}
+
+.section_padding {
+  padding: 2em;
 }

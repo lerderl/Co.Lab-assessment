@@ -2,12 +2,12 @@ import { ExternalLink } from "react-external-link";
 
 const Project = () => {
   return (
-    <section className="row projects_background" id="projects">
-      <h2 className="text-center mt-3 title_color">My Projects</h2>
+    <section className="row projects_background section_padding" id="projects">
+      <h2 className="text-center mt-3 mb-5 title_bold">MY PROJECTS</h2>
       <section className="col-sm-6 mb-3">
         <section className="card h-100">
           <article className="card-body">
-            <h5 className="card-title project_color">A Bank's website</h5>
+            <h5 className="card-title">A Bank's website</h5>
             <p className="card-text">
               This is a website I developed for Nigerian Navy Microfinance Bank
               Limited which also uses a sanity cms to display dynamic content.
@@ -24,7 +24,7 @@ const Project = () => {
       <section className="col-sm-6 mb-3">
         <section className="card h-100">
           <article className="card-body">
-            <h5 className="card-title project_color">Demo Metabnb site</h5>
+            <h5 className="card-title">Demo Metabnb site</h5>
             <p className="card-text">
               This was a project to simply recreate the landing page and another
               of a metabnb design.
@@ -48,7 +48,7 @@ const Project = () => {
       <section className="col-sm-6 mb-3">
         <section className="card h-100">
           <article className="card-body">
-            <h5 className="card-title project_color">Employee-poll</h5>
+            <h5 className="card-title">Employee-poll</h5>
             <p className="card-text">
               An application to improve employee collaboration and transparency
               in an organization.
@@ -65,7 +65,7 @@ const Project = () => {
       <section className="col-sm-6 mb-3">
         <section className="card h-100">
           <article className="card-body">
-            <h5 className="card-title project_color">MyReads</h5>
+            <h5 className="card-title">MyReads</h5>
             <p className="card-text">
               This project's aim is to enable a user be able to move books
               between the three shelves in the application. A user can also

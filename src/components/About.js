@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="card text-center" id="about">
       <article className="card-body mt-3 mb-3">
-        <h1 className="card-title title_color">Hi!, I am Joseph Olukunle</h1>
+        <h1 className="card-title">Hi, I am Joseph Olukunle!</h1>
         <p className="card-text">
           I am a software engineer with sufficient expertise in designing and
           implementing scalable, maintainable and reliable solutions using best

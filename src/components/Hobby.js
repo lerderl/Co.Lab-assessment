@@ -18,14 +18,13 @@ const Hobby = () => {
   if(!questions) return <div>loading...</div>
 
   return (
-    <article className="mt-3" id="hobby">
-      <h3 className="text-center title_color">My Favorite Hobby</h3>
-      <p>
+    <article className="mt-3 section_padding" id="hobby">
+      <h3 className="text-center title_color mb-5 title_bold">MY FAVORITE HOBBY</h3>
+      <p className="text-center">
         I usually participate in any soccer or football-related activity during
         my leisure time because it's my favorite pastime. So find below some
         trivia questions that intrigued me.
       </p>
-      {console.log("Questions: ", questions)}
       <table className="table">
         <thead>
           <tr>
@@ -44,7 +43,7 @@ const Hobby = () => {
           ))}
         </tbody>
       </table>
-      <p>
+      <p className="text-center">
         <strong className="text-decoration-underline">N.B.</strong>
         <br />
         The API employed here is{" "}
